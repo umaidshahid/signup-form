@@ -1,0 +1,123 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    background-image: url(./images/leaf.jpg);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 65vw;
+    
+}
+
+.first {
+    height: 25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 5%;
+    margin-bottom: 5%;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+    
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    border: 2px solid #e5e7eb ;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.second {
+    height: 33vh;
+    background-color: white;
+    
+}
+
+.third {
+    height: 33vh;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.button-create {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.hyperlink {
+    margin-top: 25px;
+
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.forImage {
+    height: 35vh;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.semi-transparent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    opacity: 0.6;
+}
+
+h1 {
+    font-size: 50px;
+}
